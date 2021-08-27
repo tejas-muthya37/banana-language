@@ -7,6 +7,7 @@
 // Promise - Hey, I will get this data from the server, but I am not sure when the server will respond. Once I get the data, what do you want to do? (then)
 
 document.querySelector("#btn-translate").addEventListener("click", function () {
+  console.log("Clicked");
   var url =
     "https://api.funtranslations.com/translate/minion.json" +
     "?text=" +
